@@ -32,15 +32,15 @@ function Header() {
             </motion.div>
             ) : null}
            
-            <div class="hero">
-                <div class="text">
+            <div className="hero">
+                <div className="text">
                     <h1>Hello, <br/> I'm Harizaldy</h1>
                     <p>I'm web developer specializing in frontend using ReactJS.
                         I like to craft interactive website with great user experience.
                     </p>
-                    <button>See My Works</button>
+                    <div className='button'>Contact Me</div>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={image} alt=""/>
                 </div>
             </div>
