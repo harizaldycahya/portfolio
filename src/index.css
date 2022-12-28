@@ -169,7 +169,7 @@ button{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  justify-self: center;
+  margin:auto;
   width: 90%;
   min-height: 100vh;
 }
@@ -288,6 +288,36 @@ button{
       display: grid;
       grid-template-columns: 1fr;
   }
+  .project{
+    position: relative;
+    overflow-x: hidden;
+  }
+  .project .project_title{
+    position: absolute;
+    z-index: 90;
+    width: 20%;
+    height: 80%;
+    background-color: #5278c3;
+    border-radius: 1rem 0rem 2rem 0rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    left: -20rem;
+    /* left: -20rem;
+    top: 1rem; */
+  }
+  .project img{
+    max-width: 100%;
+    width: 70%;
+    border-radius: 2rem;
+    filter: brightness(90%);
+    position: absolute;
+    padding: 1rem;
+  }
+
+  .project img:hover{
+    cursor: pointer;
+  }
+
   .contact{
       display: grid;
       grid-template-columns: 1fr;

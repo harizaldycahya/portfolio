@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Skills from "../components/Skills";
+import Works from "../components/Works";
 import {motion} from 'framer-motion'
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
         </motion.div>
 
         <Skills></Skills>
+        <Works></Works>
         <div class="space20"></div>
       </div>
     );
