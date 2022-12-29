@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 function Works() {
    const textMotion = {
     hover: {
-        x:300,
+        x:0,
         transition: {
           duration: 0.4,
           type: "tween",
@@ -19,7 +19,7 @@ function Works() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quisquam!</p>
             </div>
             <motion.div whileHover="hover" class="project">
-                <motion.div variants={textMotion} class="project_title">
+                <motion.div initial={{x:'100vw'}} variants={textMotion} class="project_title">
                     <h1></h1>
                     <h3></h3>
                     <hr />

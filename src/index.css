@@ -137,6 +137,9 @@ button{
   opacity: .1;
   text-align: center;
 }
+.moving_text h1:hover{
+  cursor: default;
+}
 
 .skills{
   display: grid;
@@ -171,13 +174,9 @@ button{
   gap: 1.5rem;
   margin:auto;
   width: 90%;
-  min-height: 100vh;
 }
 .projects .title{
   align-self: end;
-}
-.projects .project{
-  height: 80vh;
 }
 .contact{
   display: grid;
@@ -275,7 +274,6 @@ button{
       width: 80%;
   }
   
-
   .skills{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -290,28 +288,28 @@ button{
   }
   .project{
     position: relative;
+    width: 70vw;
+    min-height: 80vh;
+    overflow-y: hidden;
     overflow-x: hidden;
+    border-radius: 2rem;
   }
   .project .project_title{
     position: absolute;
     z-index: 90;
-    width: 20%;
-    height: 80%;
+    width: 50%;
+    height: 100%;
+    min-height: 50vh;
     background-color: #5278c3;
-    border-radius: 1rem 0rem 2rem 0rem;
-    padding: 1rem;
+    border-radius: 0rem 2rem 2rem 0rem;
     box-sizing: border-box;
-    left: -20rem;
-    /* left: -20rem;
-    top: 1rem; */
+    top: 0;
+    right: 0;
   }
   .project img{
-    max-width: 100%;
-    width: 70%;
-    border-radius: 2rem;
     filter: brightness(90%);
     position: absolute;
-    padding: 1rem;
+    max-width: 100%;
   }
 
   .project img:hover{

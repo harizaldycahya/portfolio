@@ -15,6 +15,7 @@ function Home() {
         </motion.div>
 
         <Skills></Skills>
+        <div class="space20"></div>
         <Works></Works>
         <div class="space20"></div>
       </div>
