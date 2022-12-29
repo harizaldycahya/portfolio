@@ -5,7 +5,7 @@ function Works() {
     hover: {
         x:0,
         transition: {
-          duration: 0.4,
+          duration: .5,
           type: "tween",
           ease: "easeOut"
         }
@@ -20,10 +20,12 @@ function Works() {
             </div>
             <motion.div whileHover="hover" class="project">
                 <motion.div initial={{x:'100vw'}} variants={textMotion} class="project_title">
-                    <h1></h1>
-                    <h3></h3>
-                    <hr />
-                    <p></p>
+                    <div class="popout_font">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eum.</p>
+                        <div className="button">Visit My Github</div>
+                    </div>
                 </motion.div>
                 <motion.img src={image} alt="" />
             </motion.div>
