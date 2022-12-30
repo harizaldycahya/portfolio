@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import Skills from "../components/Skills";
 import Works from "../components/Works";
+import Contact from "../components/Contact";
+
 import {motion} from 'framer-motion'
 function Home() {
     return (
@@ -14,10 +16,11 @@ function Home() {
             <h1>WEB DEVELOPER. FRONTEND DEVELOPER</h1>
         </motion.div>
 
-        <Skills></Skills>
-        <div class="space20"></div>
         <Works></Works>
         <div class="space20"></div>
+        <Skills></Skills>
+        <div class="space20"></div>
+        <Contact></Contact>
       </div>
     );
   }

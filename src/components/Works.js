@@ -16,15 +16,38 @@ function Works() {
         <div class="projects">
             <div class="title">
                 <h1>Selected Projects</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quisquam!</p>
+                <p>Here are a few past projects I've worked on. Want to see more? <a title='github' href="https://github.com/harizaldycahya">Visit My Github</a></p>
             </div>
+            <div className="space5"></div>
             <motion.div whileHover="hover" class="project">
                 <motion.div initial={{x:'100vw'}} variants={textMotion} class="project_title">
-                    <div class="popout_font">
-                        <h3>Lorem ipsum dolor sit amet.</h3>
+                    <div class="text">
+                        <h3>Beanbag Bengkulu</h3>
                         <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, eum.</p>
-                        <div className="button">Visit My Github</div>
+                        <p>Simple small business website with great user interface. 
+                            Created with react.js and framermotion, 
+                            this website have interactive animation and clean layout.
+                            </p>
+                        <div class="space20"></div>
+                        <a title="project" href="https://github.com/harizaldycahya">See This Project</a>
+                        {/* <div className="button">Open Project</div> */}
+                    </div>
+                </motion.div>
+                <motion.img src={image} alt="" />
+            </motion.div>
+            <div className="space5"></div>
+            <motion.div whileHover="hover" class="project">
+                <motion.div initial={{x:'100vw'}} variants={textMotion} class="project_title">
+                    <div class="text">
+                        <h3>Beanbag Bengkulu</h3>
+                        <hr />
+                        <p>Simple small business website with great user interface. 
+                            Created with react.js and framermotion, 
+                            this website have interactive animation and clean layout.
+                            </p>
+                        <div class="space20"></div>
+                        <a title="project" href="https://github.com/harizaldycahya">See This Project</a>
+                        {/* <div className="button">Open Project</div> */}
                     </div>
                 </motion.div>
                 <motion.img src={image} alt="" />

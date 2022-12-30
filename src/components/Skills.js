@@ -2,12 +2,12 @@ function Skills() {
    
     return (
       <div class="skills">
-            <div class="title">
+            <div class="title1">
                 <div class="text">
                     <h1>Tech Stack</h1>
-                    <p>I create fast, interactive and responsive website. <br /> I focusing on frontend development but i also have experience with  <br /> fullstack using Laravel and cms like wordpress</p>
+                    <p>I create fast, interactive and responsive website. I focusing on frontend development <br /> but i also have experience with  fullstack using Laravel and cms like wordpress</p>
                 </div>
-                <div className="button">Visit My Github</div>
+                {/* <div className="button">Visit My Github</div> */}
             </div>
             <div class="card">
                 <i class="fa-brands fa-react"></i>
