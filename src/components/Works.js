@@ -31,7 +31,7 @@ function Works() {
                             Created with react.js and framermotion, 
                             this website have interactive animation and clean layout.
                             </p>
-                        <div class="space20"></div>
+                        <div className="space5"></div>
                         <a title="project" href="https://github.com/harizaldycahya">See This Project</a>
                         {/* <div className="button">Open Project</div> */}
                     </div>
@@ -58,7 +58,7 @@ function Works() {
                             Created with react.js and framermotion, 
                             this website have interactive animation and clean layout.
                             </p>
-                        <div class="space20"></div>
+                        <div class="space5"></div>
                         <a title="project" href="https://github.com/harizaldycahya">See This Project</a>
                         {/* <div className="button">Open Project</div> */}
                     </div>

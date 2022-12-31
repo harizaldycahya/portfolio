@@ -13,7 +13,7 @@ body{
   font-family: 'Dosis', sans-serif;
   overflow-x: hidden;
   box-sizing: border-box;
-  border: 1rem solid white;
+  /* border: 1rem solid white; */
 }
 .space20{
   min-height: 20vh;
@@ -243,11 +243,12 @@ a{
 .project .project_title{
   position: absolute;
   z-index: 90;
-  width: 5rem;
-  min-height: 5rem;
+  width: 25rem;
+  min-height: 25rem;
   background:hsla(0, 0%, 0%, .85);
   box-sizing: border-box;
   padding: 1rem;
+  display: none;
 }
 .project .project_title .text{
   padding: 1rem;
@@ -366,6 +367,9 @@ a{
       width: 30rem;
       min-height: 15rem;
   }
+  .project .project_title{
+    display: none;
+  }
   .contact{
       display: grid;
       grid-template-columns: 1fr;
@@ -378,6 +382,10 @@ a{
 }
 
 @media (min-width: 1000px) {
+  
+  h1{
+    font-size: 4rem;
+  }
   .navbar{
       display: grid;
       grid-template-columns: 1fr 9fr;
@@ -418,13 +426,29 @@ a{
   .projects{
       display: grid;
       grid-template-columns: 1fr;
+      text-align: center;
   }
-  
+  .project{
+    width: 50rem;
+    min-height: 25rem;
+    border-radius: 2rem;
+    justify-self: center;
+  }
+  .project .project_title{
+    display: block;
+  }
+  .project_title_mobile{
+    display: none;
+  }
 
   .contact{
       display: grid;
       grid-template-columns: 1fr;
       padding: 5rem;
+  }
+  .contact .button{
+    margin: 2rem 1rem;
+    width: 20rem;
   }
   .footer{
       display: grid;
