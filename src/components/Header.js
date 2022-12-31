@@ -1,5 +1,5 @@
 import logo from '../assets/square.jpg'
-import image from '../assets/Photo4.png'
+import image from '../assets/Photo5.png'
 import background from '../assets/img.jpg'
 import {motion} from 'framer-motion'
 import React, { useState } from "react";

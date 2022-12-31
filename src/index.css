@@ -166,15 +166,20 @@ a{
 }
 .hero .title{
   display: grid;
-  align-items: center;
+  align-items: start;
 }
 .hero .text{
   padding: 1rem;
 }
+.hero .image{
+  display: grid;
+  align-content: start;
+  padding: 5rem;
+  justify-content: end;
+}
 .hero img{
   display: grid;
-  max-width: 90%;
-  justify-self: end;
+  max-width: 80%;
 }
 
 .moving_text{
@@ -346,10 +351,7 @@ a{
       padding: 5rem;
   }
   .hero .image{
-      display: flex;
-      align-items: center;
-      width: 100%;
-
+      padding: 8rem 1rem 8rem 1rem;
   }
   .skills{
       display: grid;
@@ -405,9 +407,7 @@ a{
       padding: 5rem;
   }
   .hero .image{
-      display: flex;
-      padding: 5rem 3rem 3rem 3rem;
-      align-items: center;
+      padding: 5rem;
       width: 80%;
   }
   

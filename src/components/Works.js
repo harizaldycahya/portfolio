@@ -19,7 +19,9 @@ function Works() {
                     <motion.div whileHover={{rotateX:30}} className='animated_word' >Selected</motion.div>&nbsp;
                     <motion.div whileHover={{rotateX:30}} className='animated_word' >Projects</motion.div>
                 </h1>
-                <p>Here are a few past projects I've worked on. Want to see more? &nbsp;&nbsp; <a title='github' href="https://github.com/harizaldycahya">Visit My Github <i class="fa-brands fa-github"></i> </a></p>
+                <p>Here are a few past projects I've worked on. Want to see more? &nbsp;&nbsp; 
+                    <a title='github' style={{display:'inline-block'}} href="https://github.com/harizaldycahya">Visit My Github <i class="fa-brands fa-github"></i> </a>
+                    </p>
             </div>
             <div className="space5"></div>
             <motion.div whileHover="hover" class="project">
