@@ -34,7 +34,11 @@ function Header() {
            
             <div className="hero">
                 <div className="text">
-                    <h1>Hello, <br/> I'm Harizaldy</h1>
+                    <h1>
+                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Hello,</motion.div> <br />
+                        <motion.div whileHover={{rotateX:30}} className='animated_word' >I'm</motion.div>&nbsp;
+                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Harizaldy</motion.div>
+                    </h1>
                     <p>I'm web developer specializing in frontend using ReactJS.
                         I like to craft interactive website with great user experience.
                     </p>

@@ -3,15 +3,18 @@
     #1DB3F4
     #5278C3
 } */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Righteous&display=swap');
 
 body{
   background-color: #090A0C;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Dosis', sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
+  border: 1rem solid white;
 }
-
 .space20{
   min-height: 20vh;
 }
@@ -20,7 +23,8 @@ body{
 }
 
 h1{
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
 }
 h1:hover{
   cursor: pointer;
@@ -79,6 +83,11 @@ a{
   background: transparent;
   background-color: #1DB3F4;
  }
+
+.animated_word{
+  display: inline-block;
+}
+
 .main_container{
   display: grid;
   grid-template-columns: 1fr;
@@ -98,6 +107,11 @@ a{
   -webkit-box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
   -moz-box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
   box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
+
+  -o-background-size:100% auto;
+  -webkit-background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-size:100% auto;
 }
 
 .navbar{
@@ -112,9 +126,12 @@ a{
   font-size: 2rem;
   padding: 1rem;
 }
+.ham i{
+  font-size: 2rem;
+}
 
 .ham_items{
-  width: 70vw;
+  width: 50vw;
   background-color: white;
   color: black;
   padding: 1rem;
@@ -172,23 +189,18 @@ a{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  margin: auto;
   width: 90%;
   min-height: 100vh;
-  padding: 5rem;
+  /* padding: 5rem; */
+  padding: 1rem;
   box-sizing: border-box;
+  margin: auto;
 }
-.skills .title1{
+.skills .title{
   display: grid;
   grid-template-columns: 1fr;
   align-self: end;
   text-align: right;
-}
-.skills .title2{
-  display: grid;
-  grid-template-columns: 1fr;
-  align-self: end;
-  text-align: left;
 }
 .skills button{
   align-self: center;
@@ -208,32 +220,33 @@ a{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  padding: 5rem;
-  text-align: center;
+  /* padding: 5rem; */
+  text-align: left;
+  padding: 1rem;
 }
 .projects .title{
   align-self: end;
 }
+.projects i{
+  font-size: 2rem;
+}
 .project{
   position: relative;
-  width: 60rem;
-  min-height: 30rem;
+  width: 15rem;
+  min-height: 7.5rem;
   overflow-y: hidden;
   overflow-x: hidden;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   display: grid;
-  justify-self: center;
+  /* justify-self: center; */
 }
 .project .project_title{
   position: absolute;
   z-index: 90;
-  width: 30rem;
-  min-height: 30rem;
-  /* background:hsla(220, 48%, 54%, .85); */
+  width: 5rem;
+  min-height: 5rem;
   background:hsla(0, 0%, 0%, .85);
   box-sizing: border-box;
-  /* top: 0;
-  right: 0; */
   padding: 1rem;
 }
 .project .project_title .text{
@@ -259,9 +272,10 @@ a{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  width: 90%;
+  max-width: 90%;
   min-height: 100vh;
-  padding: 5rem;
+  padding: 0rem;
+  box-sizing: border-box;
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -269,6 +283,12 @@ a{
   -webkit-box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
   -moz-box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
   box-shadow: inset -10vw -50vh 20rem 1rem #090A0C;
+
+  -o-background-size:100% auto;
+  -webkit-background-size:100% auto;
+  -moz-background-size:100% auto;
+  background-size:100% auto;
+  margin: auto;
 }
 .contact .title{
   display: grid;
@@ -281,11 +301,13 @@ a{
   margin:auto;
   display: inline-block;
   margin: 2rem 1rem;
+  width: 10rem;
 }
 .contact .button-outline{
   margin:auto;
   display: inline-block;
   margin: 2rem 1rem;
+  width: 10rem;
 }
 .contact i{
   font-size: 2rem;
@@ -332,21 +354,22 @@ a{
       display: grid;
       grid-template-columns: 1fr 1fr;
   }
-  .skills .title1{
+  .skills .title{
       grid-column: span 2;
-      grid-template-columns: 8fr 2fr;
-  }
-  .skills .title2{
-      grid-column: span 2;
-      grid-template-columns: 8fr 2fr;
   }
   .projects{
       display: grid;
       grid-template-columns: 1fr;
+      padding: 5rem;
+  }
+  .project{
+      width: 30rem;
+      min-height: 15rem;
   }
   .contact{
       display: grid;
       grid-template-columns: 1fr;
+      padding: 5rem;
   }
   .footer{
       display: grid;
@@ -384,7 +407,7 @@ a{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .skills .title1{
+  .skills .title{
       grid-column: span 4;
       grid-template-columns: 1fr;
   }
@@ -401,6 +424,7 @@ a{
   .contact{
       display: grid;
       grid-template-columns: 1fr;
+      padding: 5rem;
   }
   .footer{
       display: grid;

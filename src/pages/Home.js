@@ -11,9 +11,9 @@ function Home() {
 
         <motion.div initial={{ x: '-20vw' }}
                     animate={{ x: '20vw' }}
-                    transition={{ duration: 10, repeat: Infinity,repeatType: "reverse" }} 
+                    transition={{ duration: 5, repeat: Infinity,repeatType: "reverse" }} 
                     className='moving_text'>
-            <h1>WEB DEVELOPER. FRONTEND DEVELOPER</h1>
+            <h1>REACT.JS FRONTEND DEVELOPER</h1>
         </motion.div>
 
         <Works></Works>
