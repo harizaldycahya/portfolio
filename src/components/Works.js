@@ -13,11 +13,11 @@ function Works() {
    };
 
     return (
-        <div class="projects">
+        <div id='projects' class="projects">
             <div class="title">
                 <h1>
-                    <motion.div whileHover={{rotateX:30}} className='animated_word' >Selected</motion.div>&nbsp;
-                    <motion.div whileHover={{rotateX:30}} className='animated_word' >Projects</motion.div>
+                    <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Selected</motion.div>&nbsp;
+                    <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Projects</motion.div>
                 </h1>
                 <p>Here are a few past projects I've worked on. Want to see more? &nbsp;&nbsp; 
                     <a title='github' style={{display:'inline-block'}} href="https://github.com/harizaldycahya">Visit My Github <i class="fa-brands fa-github"></i> </a>

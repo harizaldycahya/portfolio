@@ -2,12 +2,12 @@ import {motion} from 'framer-motion'
 function Skills() {
    
     return (
-      <div class="skills">
+      <div id='skills' class="skills">
             <div class="title">
                 <div class="text">
                     <h1>
-                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Tech</motion.div>&nbsp;
-                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Stack</motion.div>
+                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Tech</motion.div>&nbsp;
+                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Stack</motion.div>
                     </h1>
                     <p>I create fast, interactive and responsive website. I focusing on frontend development <br /> but i also have experience with  fullstack using Laravel and cms like wordpress</p>
                 </div>

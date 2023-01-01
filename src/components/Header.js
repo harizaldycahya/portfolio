@@ -11,16 +11,16 @@ function Header() {
     };
 
     return (
-      <div className="header" style={{ backgroundImage: `url(${background})` }}>
+      <div id='about' className="header" style={{ backgroundImage: `url(${background})` }}>
             <div id='navbar' class="navbar">
                 <div class="logo">
                     <img src={logo} alt=""/>
                 </div>
                 <div class="links">
-                    <a href="/#about"><h3>About</h3></a>
-                    <a href="/#skills"><h3>Skills</h3></a>
-                    <a href="/#works"><h3>Works</h3></a>
-                    <a href="/#contact"><h3>Contact</h3></a>
+                    <motion.a whileHover={{y:-10}} transition={{type:"spring", stiffness:100}} href="/#projects"><h3>Projects</h3></motion.a>
+                    <motion.a whileHover={{y:-10}} transition={{type:"spring", stiffness:100}} href="/#skills"><h3>Skills</h3></motion.a>
+                    <motion.a whileHover={{y:-10}} transition={{type:"spring", stiffness:100}} href="/#contact"><h3>Contact</h3></motion.a>
+                    <motion.a whileHover={{y:-10}} transition={{type:"spring", stiffness:100}} href="https://github.com/harizaldycahya"><h3>Github</h3></motion.a>
                 </div>
             </div>
             <motion.div onClick={toggleMenu} whileHover={{x:10}} className="ham">
@@ -35,17 +35,19 @@ function Header() {
             <div className="hero">
                 <div className="text">
                     <h1>
-                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Hello,</motion.div> <br />
-                        <motion.div whileHover={{rotateX:30}} className='animated_word' >I'm</motion.div>&nbsp;
-                        <motion.div whileHover={{rotateX:30}} className='animated_word' >Harizaldy</motion.div>
+                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Hello,</motion.div> <br />
+                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >I'm</motion.div>&nbsp;
+                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Harizaldy</motion.div>
                     </h1>
                     <p>I'm web developer specializing in frontend using ReactJS.
                         I like to craft interactive website with great user experience.
                     </p>
-                    <div className='button'>Contact Me</div>
+                    <a style={{textDecoration:'none'}} href="/#contact">
+                        <div className='button'>Contact Me</div>
+                    </a>
                 </div>
                 <div className="image">
-                    <img src={image} alt=""/>
+                    <motion.img whileHover={{y:-20}} transition={{type:"spring", stiffness:100}} src={image} alt=""/>
                 </div>
             </div>
       </div>

@@ -21,6 +21,10 @@ function Home() {
         <Skills></Skills>
         <div class="space20"></div>
         <Contact></Contact>
+        <div>
+            <p style={{display:'grid', justifyContent:'center'}}>&copy; Harizaldy Cahya Pratama</p>
+        </div>
+        <div class="space5"></div>
       </div>
     );
   }
