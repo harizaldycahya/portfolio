@@ -1,4 +1,4 @@
-import logo from '../assets/square.jpg'
+import logo from '../assets/H.png'
 import image from '../assets/Photo5.png'
 import background from '../assets/img.jpg'
 import {motion} from 'framer-motion'
@@ -14,7 +14,7 @@ function Header() {
       <div id='about' className="header" style={{ backgroundImage: `url(${background})` }}>
             <div id='navbar' class="navbar">
                 <div class="logo">
-                    <img src={logo} alt=""/>
+                    <img style={{padding:'1rem'}} src={logo} alt=""/>
                 </div>
                 <div class="links">
                     <motion.a whileHover={{y:-10}} transition={{type:"spring", stiffness:100}} href="/#projects"><h3>Projects</h3></motion.a>
