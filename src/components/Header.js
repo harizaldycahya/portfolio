@@ -10,6 +10,7 @@ function Header() {
         setOpenMenu(!openMenu);
     };
 
+
     return (
       <div id='about' className="header" style={{ backgroundImage: `url(${background})` }}>
             <div id='navbar' class="navbar">
@@ -34,11 +35,23 @@ function Header() {
            
             <div className="hero">
                 <div className="text">
-                    <h1>
-                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Hello,</motion.div> <br />
-                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >I'm</motion.div>&nbsp;
-                        <motion.div whileHover={{rotateX:30}} transition={{type:"spring", stiffness:100}} className='animated_word' >Harizaldy</motion.div>
-                    </h1>
+                    <motion.h1>
+                        <motion.div
+                        initial={{ x: 20 }}
+                        animate={{ x: 0 }}
+                        transition={{stiffness:100, duration: .5, repeat: Infinity,repeatType: "reverse" }}
+                         className='animated_word' >Hello,</motion.div> <br />
+                        <motion.div
+                        initial={{ x: 20 }}
+                        animate={{ x: 0 }}
+                        transition={{stiffness:100, duration: .6, repeat: Infinity,repeatType: "reverse", delay: 1 }}
+                        className='animated_word' >I'm</motion.div>&nbsp;
+                        <motion.div
+                        initial={{ x: 20 }}
+                        animate={{ x: 0 }}
+                        transition={{stiffness:100, duration: .7, repeat: Infinity,repeatType: "reverse", delay: 2 }}
+                        className='animated_word' >Harizaldy</motion.div>
+                    </motion.h1>
                     <p>I'm web developer specializing in frontend using ReactJS.
                         I like to craft interactive website with great user experience.
                     </p>
@@ -47,7 +60,10 @@ function Header() {
                     </a>
                 </div>
                 <div className="image">
-                    <motion.img whileHover={{y:-20}} transition={{type:"spring", stiffness:100}} src={image} alt=""/>
+                    <motion.img
+                    animate={{ transform: 'rotate(360deg)' }}
+                    transition={{ type:"spring", duration: 5, repeat: Infinity}}
+                    src={image} alt=""/>
                 </div>
             </div>
       </div>
