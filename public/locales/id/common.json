@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "button": "Hubungi Saya"
+  },
+  "nav": {
+    "about": "About Me",
+    "work": "Tech Stack",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "headlineDesktop": "SAYA MEMBUAT APLIKASI WEB <1>MODERN</1>.",
+    "headlineMobile": "SAYA MEMBUAT APLIKASI WEB <1>MODERN</1>.",
+    "description": "BERDOMISILI DI JAKARTA, SAYA FULLSTACK DEVELOPER YANG FOKUS DI <1>LARAVEL</1> & <3>MERN</3> STACK. SAYA MERANCANG, MEMBANGUN, DAN MENG-DEPLOY SOLUSI DIGITAL UNTUK BISNIS DAN BRAND."
+  },
+  "techstack": {
+    "headline": "TEKNOLOGI YANG SAYA GUNAKAN"
+  },
+  "portfolio": {
+    "title": "PROJECT SAYA",
+    "headline1": "SOLUSI NYATA UNTUK KEBUTUHAN NYATA.",
+    "headline2": "DIKERJAKAN DENGAN PASION DAN KETELITIAN."
+  },
+  "contact": {
+    "running_text": "HUBUNGI SAYA HUBUNGI SAYA HUBUNGI SAYA HUBUNGI SAYA",
+    "title": "Hubungi Saya",
+    "content": "Punya ide proyek atau ingin bekerja sama? Saya selalu terbuka untuk kolaborasi atau diskusi seputar kebutuhan digital Anda."
+  }
+
+}

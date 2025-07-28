@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "button": "Contact Me"
+  },
+
+  "nav": {
+    "about": "About",
+    "work": "Work",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "headlineDesktop": "I BUILD <1>SCALABLE</1> WEB APPS",
+    "headlineMobile": "I BUILD <1>SCALABLE</1> WEB APPS",
+    "description": "BASED IN INDONESIA, I’M A FULLSTACK DEVELOPER SPECIALIZING IN <1>LARAVEL</1> & THE <3>MERN</3> STACK. I DESIGN, BUILD, AND DEPLOY MODERN SOLUTIONS FOR STARTUPS AND BRANDS."
+  },
+  "techstack": {
+    "headline": "TOOLS THAT POWER MY PROJECTS"
+  },
+  "portfolio": {
+    "title": "My Projects",
+    "headline1": "REAL SOLUTIONS FOR REAL CLIENTS.",
+    "headline2": "BUILT WITH PASSION & PRECISION."
+  },
+  "contact": {
+    "running_text": "LET'S CONNECT LET'S CONNECT LET'S CONNECT LET'S CONNECT",
+    "title": "Get in Touch",
+    "content": "Have a project in mind or just want to say hello? I'm always open to discussing new ideas or collaboration opportunities."
+  }
+
+}
+
+
