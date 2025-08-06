@@ -20,8 +20,10 @@ export default function Home() {
     <>
       {/* Tambahkan Head agar HTML lebih SEO-friendly */}
       <Head>
+        <meta name="google-site-verification" content="MqQgYiHUtyWGr7aQxf0K67uWt82Eua-ngys8kHFN8mQ" />
         <title>Harizaldy | Portfolio</title>
         <meta name="description" content="Harizaldy's Personal Portfolio" />
+        <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
