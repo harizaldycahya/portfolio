@@ -21,7 +21,19 @@ export default function Home() {
       {/* Tambahkan Head agar HTML lebih SEO-friendly */}
       <Head>
         <meta name="google-site-verification" content="MqQgYiHUtyWGr7aQxf0K67uWt82Eua-ngys8kHFN8mQ" />
-        <title>Harizaldy | Portfolio</title>
+          <title>Harizaldy – Jasa Freelance Fullstack Developer Jakarta</title>
+          <meta name="description" content="Harizaldy adalah seorang fullstack developer Jakarta yang membantu UMKM & startup membangun website modern dan aplikasi web." />
+          <meta name="robots" content="index, follow" />
+          <meta name="author" content="Harizaldy Cahya" />
+
+          <meta property="og:title" content="Jasa Developer Freelance Jakarta – Harizaldy Cahya" />
+          <meta property="og:description" content="Saya membantu UMKM dan bisnis di Jakarta membangun aplikasi web dengan React, Next.js, dan Node.js." />
+          <meta property="og:url" content="https://harizaldyportfolio.vercel.app" />
+          <meta property="og:type" content="website" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Harizaldy – Jasa Web Developer Freelance Jakarta" />
+          <meta name="twitter:description" content="Developer fullstack Jakarta untuk UMKM, startup, dan perusahaan. Bangun website cepat dan modern." />
         <meta name="description" content="Harizaldy's Personal Portfolio" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
