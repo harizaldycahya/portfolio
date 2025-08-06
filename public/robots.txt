@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://harizaldyportfolio.vercel.app
+
+# Sitemaps
+Sitemap: https://harizaldyportfolio.vercel.app/sitemap.xml
