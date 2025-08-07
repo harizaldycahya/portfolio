@@ -36,6 +36,15 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png" />
         <link rel="manifest" href="/assets/favicon_io/site.webmanifest" />
 
+        {/* English (default) */}
+        <link rel="alternate" href="https://harizaldyportfolio.vercel.app/" hreflang="en" />
+
+        {/* Indonesian */}
+        <link rel="alternate" href="https://harizaldyportfolio.vercel.app/id" hreflang="id" />
+
+        {/* Fallback */}
+        <link rel="alternate" href="https://harizaldyportfolio.vercel.app/" hreflang="x-default" />
+
       </Head>
       <body>
         <Main />

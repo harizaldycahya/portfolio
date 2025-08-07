@@ -34,9 +34,8 @@ export default function Home() {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Harizaldy – Jasa Web Developer Freelance Jakarta" />
           <meta name="twitter:description" content="Developer fullstack Jakarta untuk UMKM, startup, dan perusahaan. Bangun website cepat dan modern." />
-        <meta name="description" content="Harizaldy's Personal Portfolio" />
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="robots" content="index, follow" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <motion.div
