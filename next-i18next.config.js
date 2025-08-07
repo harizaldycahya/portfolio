@@ -3,5 +3,6 @@ module.exports = {
   i18n: {
     defaultLocale: 'id',
     locales: ['en', 'id'],
+    localeDetection: false,  // disable auto detection
   },
 };
