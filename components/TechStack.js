@@ -9,6 +9,7 @@ export default function TechStack() {
 
   return (
     <motion.div
+      id="techstack"
       ref={ref}
       className="tech_stack section"
       style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}

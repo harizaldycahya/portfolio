@@ -51,7 +51,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-between" id="navbarContent">
           <ul className="navbar-nav mx-auto mb-2 mb-md-0">
             <li className="nav-item"><a className="nav-link" href="#about">{t('nav.about')}</a></li>
-            <li className="nav-item"><a className="nav-link" href="#work">{t('nav.work')}</a></li>
+            <li className="nav-item"><a className="nav-link" href="#techstack">{t('nav.work')}</a></li>
             <li className="nav-item"><a className="nav-link" href="#portfolio">{t('nav.portfolio')}</a></li>
             <li className="nav-item"><a className="nav-link" href="#contact">{t('nav.contact')}</a></li>
           </ul>

@@ -6,6 +6,7 @@ export default function About() {
 
   return (
     <motion.div
+      id="about"
       className="about"
       style={{ minHeight: "100vh", display: "flex", alignItems: "center" }}
       exit={{ opacity: 0, y: 80 }}

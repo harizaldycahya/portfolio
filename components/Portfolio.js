@@ -46,6 +46,7 @@ export default function Portfolio() {
       initial={{ opacity: 0, y: 100 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 1, ease: "easeOut" }}
+      id="portfolio"
     >
       <div className="m-auto portfolio">
         <div className="mt-5 row">
