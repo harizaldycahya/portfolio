@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">HARIZALDY</a>
+        <a className="navbar-brand fw-bold" href="#">HARIZALDY TESTING</a>
 
         <button
           className="navbar-toggler"
@@ -47,7 +47,6 @@ export default function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div className="collapse navbar-collapse justify-content-between" id="navbarContent">
           <ul className="navbar-nav mx-auto mb-2 mb-md-0">
             <li className="nav-item"><a className="nav-link" href="#about">{t('nav.about')}</a></li>
